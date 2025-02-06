@@ -1,11 +1,10 @@
-Project : COVID-19 Impact Analysis
-Overview:
+# Project : COVID-19 Impact Analysis
 This project utilizes Python's Dash library and Flask for web deployment to create an interactive dashboard. 
 The dashboard visualizes critical COVID-19 metrics, including total cases, active cases, recoveries, and fatalities across various states in India.
 Additionally, it tracks the availability of essential items such as masks, sanitizers, and oxygen supplies.
 
 
-Tools and Technologies:
+# Tools and Technologies:
 
 •	Data Manipulation: NumPy, Pandas
 
@@ -17,7 +16,7 @@ Tools and Technologies:
 
 
 
-Key Features:
+# Key Features:
 
 State-wise COVID-19 statistics presented through interactive graphs.
 
