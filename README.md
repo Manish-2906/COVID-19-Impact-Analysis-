@@ -1,6 +1,6 @@
 ### **🚀 Project: COVID-19 Impact Analysis**  
 
-This project leverages **Python’s Dash library** and **Flask** for web deployment to create an **interactive dashboard** 📊. The dashboard provides real-time insights into **COVID-19 metrics**, including **total cases, active cases, recoveries, and fatalities** across various states in India 🇮🇳.  
+This project leverages **Python’s Dash library** and **Flask** for web deployment to create an **interactive dashboard** 📊. The dashboard provides real-time insights into **COVID-19 metrics**, including **total cases, active cases, recoveries, and fatalities** across various states in India.  
 
 Additionally, it tracks the **availability of essential supplies** such as **masks 😷, sanitizers 🧴, and oxygen cylinders 🏥** to assist in crisis management.  
 
