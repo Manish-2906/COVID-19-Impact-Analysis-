@@ -1,28 +1,65 @@
-### **🚀 Project: COVID-19 Impact Analysis**  
+# COVID-19 Impact Analysis Dashboard
 
-This project leverages **Python’s Dash library** and **Flask** for web deployment to create an **interactive dashboard** 📊. The dashboard provides real-time insights into **COVID-19 metrics**, including **total cases, active cases, recoveries, and fatalities** across various states in India.  
+An interactive Dash dashboard that visualizes COVID-19 trends and essential-supply availability by Indian state.
 
-Additionally, it tracks the **availability of essential supplies** such as **masks 😷, sanitizers 🧴, and oxygen cylinders 🏥** to assist in crisis management.  
+## Portfolio-ready highlights
 
----
+- Built with **Dash + Plotly** for interactive analytics.
+- Tracks **cases, recoveries, and deaths** by state.
+- Includes supply views for **masks, sanitizers, and oxygen**.
+- Uses a clean single-entry app (`app.py`) and CSV-driven data model.
 
-### **🛠️ Tools & Technologies:**  
-🔹 **Data Manipulation**: NumPy, Pandas  
-🔹 **Data Visualization**: Plotly (graph_objs, express)  
-🔹 **Dashboard Development**: Dash, Dash Core Components, Dash HTML Components  
-🔹 **Interactivity**: Input and Output from Dash Dependencies  
+## Tech Stack
 
----
+- Python
+- Dash
+- Plotly
+- Pandas
+- NumPy
+- Bootstrap 4 (via CDN)
 
-### **✨ Key Features:**  
-📌 **State-wise COVID-19 statistics** presented through **interactive graphs 📈**  
-📌 **Real-time insights** into essential **supplies availability 🚑**  
-📌 **User-friendly & responsive interface** for seamless navigation 💡  
+## Repository Structure
 
----
+```text
+.
+├── app.py
+├── state_wise_daily data file IHHPET.csv
+├── style.css
+├── requirements.txt
+└── README.md
+```
 
-### **🌍 Impact:**  
-✅ **Simplified pandemic trends analysis** for better understanding  
-✅ **Improved accessibility** to critical data for **decision-making** during the crisis  
+## Local Setup
 
-![Screenshot (148)](https://github.com/user-attachments/assets/0eec9859-1082-4887-b7e2-6dd8641ce411)
+1. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # macOS/Linux
+   # .venv\\Scripts\\activate  # Windows PowerShell
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the dashboard:
+
+   ```bash
+   python app.py
+   ```
+
+4. Open in browser:
+
+   `http://127.0.0.1:8050/`
+
+## Notes
+
+- The app reads data from `state_wise_daily data file IHHPET.csv` in the project root.
+- Keep the CSV filename unchanged unless you also update the file path in `app.py`.
+
+## Screenshot
+
+![COVID-19 Dashboard](https://github.com/user-attachments/assets/0eec9859-1082-4887-b7e2-6dd8641ce411)
